@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../../font/Montserrat-Regular.ttf")
+}
+
+.wrap {
+   display: grid;
+   height: 100vh;
+   width: 100vw;
+   grid-template-areas: "sidebar1 sidebar2";
+   grid-template-columns: 1fr 2fr;
+
+   .sidebar1 {
+       background-color: white;
+       grid-area: sidebar1;
+       
+   }
+
+   .sidebar2 {
+    background-color:#F4B93D;
+    grid-area: sidebar2;
+   }
+}
